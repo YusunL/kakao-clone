@@ -24,17 +24,17 @@
 
 .nav__badge {
   position: absolute;
-  top: -7px;
-  right: -7px;
+  top: -13px;
+  right: -10px;
   font-size: 10px;
   color: white;
-  background-color: #dc5d46;
-  width: 18px;
+  background-color: #ed6940;
+  width: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 18px;
-
+  height: 16px;
+  font-weight: 600;
   border-radius: 50%;
 }
 

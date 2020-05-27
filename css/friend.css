@@ -2,24 +2,44 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 20px 0px;
+}
+
+.avatar__img {
+  max-width: 100%;
+}
+
+.friend__avatar {
+  border-radius: 43%;
+  overflow: hidden;
+  background-color: white;
 }
 
 .friend .friend__avatar {
   width: 50px;
-  border-radius: 38%;
+  height: 50px;
 }
 
 .friend__avatar.g-avatar {
   width: 70px;
+  height: 70px;
 }
 
 .friend__avatar.m-avatar {
   width: 60px;
+  height: 60px;
 }
 
 .friend .friend__column {
   display: flex;
   align-items: center;
+}
+
+.friend .friend__column2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .friend .friend__avatar {
@@ -56,6 +76,9 @@
   border-radius: 15px;
   border: 2px solid #52e084;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  background-color: white;
 }
 
 .friend__now-listening span {
@@ -64,6 +87,7 @@
 
 .friend__now-listening i {
   font-size: 12px;
+  margin-left: 5px;
 }
 
 .friend__add-btn {
@@ -73,4 +97,18 @@
   background-color: #f5f5f5;
   padding: 10px 15px;
   border-radius: 5px;
+}
+
+.friend__badge {
+  font-size: 10px;
+  color: white;
+  background-color: #ed6940;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16px;
+  font-weight: 600;
+  border-radius: 50%;
+  margin-top: 5px;
 }
