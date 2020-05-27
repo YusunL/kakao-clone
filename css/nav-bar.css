@@ -37,3 +37,19 @@
 
   border-radius: 50%;
 }
+
+@keyframes showNavBar {
+  0% {
+    transform: translateY(50px);
+  }
+
+  100% {
+    transform: none;
+  }
+}
+
+.nav {
+  transform: translateY(50px);
+  animation: showNavBar 0.3s ease-in-out forwards;
+  animation-delay: 0.4s;
+}
