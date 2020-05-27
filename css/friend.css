@@ -12,7 +12,7 @@
 .friend__avatar {
   border-radius: 43%;
   overflow: hidden;
-  background-color: white;
+  background-color: rgb(166, 223, 223);
 }
 
 .friend .friend__avatar {
